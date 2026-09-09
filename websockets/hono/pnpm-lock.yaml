@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: 2.0.5
-        version: 2.0.5(hono@4.12.26)
+        version: 2.0.5(hono@4.13.5)
       '@types/ws':
         specifier: 8.18.1
         version: 8.18.1
       hono:
-        specifier: 4.12.26
-        version: 4.12.26
+        specifier: 4.13.5
+        version: 4.13.5
       ws:
         specifier: 8.21.0
         version: 8.21.0
@@ -211,8 +211,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  hono@4.12.26:
-    resolution: {integrity: sha512-uyZtpnYxM9CmQ7QsQknM4zN8EftNqhON1qYeIKM0Se67CCEe2c44xyGURwB0axX2fBDu1dqHrHAc1hmNT8ITkw==}
+  hono@4.13.5:
+    resolution: {integrity: sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw==}
     engines: {node: '>=16.9.0'}
 
   tsx@4.22.4:
@@ -320,9 +320,9 @@ snapshots:
   '@esbuild/win32-x64@0.28.1':
     optional: true
 
-  '@hono/node-server@2.0.5(hono@4.12.26)':
+  '@hono/node-server@2.0.5(hono@4.13.5)':
     dependencies:
-      hono: 4.12.26
+      hono: 4.13.5
 
   '@types/node@24.13.2':
     dependencies:
@@ -364,7 +364,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  hono@4.12.26: {}
+  hono@4.13.5: {}
 
   tsx@4.22.4:
     dependencies:

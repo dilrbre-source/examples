@@ -14,7 +14,7 @@
   "dependencies": {
     "@hono/node-server": "2.0.5",
     "@types/ws": "8.18.1",
-    "hono": "4.12.26",
+    "hono": "4.13.5",
     "ws": "8.21.0"
   },
   "devDependencies": {
